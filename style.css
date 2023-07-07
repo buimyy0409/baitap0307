@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    max-width: 1000px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fafafa;
+}
+header {
+    background-color: rgb(80, 191, 228);
+    padding: 15px;
+    display: flex;
+}
+p {
+    padding: 0 20px;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+.img-container {
+    background-color: white;
+    padding: 10px;
+    border-top-right-radius: 55px;
+    border-bottom-right-radius: 55px;
+}
+.img-container img {
+    width: 120px;
+    height: 110px;
+    padding-left: 50px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+.title-container {
+    margin-left: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.title-container h1, .title-container h2 {
+    color: white;
+    margin: 10px;
+    font-weight: 500px;
+}
+.title-container h1 {
+    font-weight: 700px;
+}
+.container {
+    background-color: #e0e0e0;
+    padding: 20px;
+    display: flex;
+}
+.sidebar, .content{
+    width: calc(100%- 30px);
+    background-color: white;
+    padding: 20px;
+}
+.sidebar {
+    margin-right: 20px;
+}
+.content {
+    flex-grow: 1;
+}
+.tag-fill {
+    background-color: rgb(80, 191, 228);
+    padding: 8px;
+    color: white;
+    font-size: 18px;
+    display: inline-block;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
+.tag-content {
+    padding: 10px;
+    margin-top: 1px;
+}
+.tag-content ul {
+    margin: 0;
+    padding: 0;
+}
+.tag-content ul li {
+    list-style-type: none;
+    padding: 8px 0;
+}
+.progress-title {
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    margin: 0;
+}
+.progress-wrap {
+    width: 100%;
+    height: 10px;
+    border-radius: 100px;
+    background-color: #e0e0e0;
+    margin-top: 8px;
+}
+.progress {
+    width: 50%;
+    background-color: #1bac9c;
+    height: 10px;
+    border-radius: 100px;
+}
+.tag {
+    font-size: 24px;
+    color: #212121;
+    padding: 10px 30px;
+    border-left: 18px solid rgb(80, 191, 228);
+    margin-bottom: 20px;
+}
+.intro {
+    font-size: 17px;
+    padding-left: 40px;
+}
+.content h2 {
+    font-size: 18px;
+    margin-top: 5px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.tabbar-title {
+    display: flex ;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.tabbar-title h3 {
+    padding: 0;
+    font-size: 22px;
+    font-weight: 700;
+}
+.tabbar-title p {
+    font-size: 17px;
+    font-weight: 700px;
+    color: rgb(80, 191, 228);
+    font-style: italic;
+}
+.tabbar-title ul li p {
+    line-height: 10px;
+    margin-top: 5px;
+}
